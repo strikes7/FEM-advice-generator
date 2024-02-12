@@ -1,0 +1,11 @@
+@use "../abstract/" as *;
+
+body {
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: $clr-neutral-400;
+  font-family: $ff-primary;
+}
